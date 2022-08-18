@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(67, 104, 122);
+}
+
+.color-pallete{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.color-pallete div{
+    border: black solid 0px;
+    width: 200px;
+    padding-left: 10px;
+    border-radius: 1rem;
+    
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column; 
+    text-align: right;
+    padding-right: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 0.75rem;
+}
+
+.color-pallete div p {
+    padding: 0;
+    margin: 0;
+}
+
+.color-pallete div:nth-child(1){
+    background-color: #1b221e;
+    color: grey;
+}
+
+.color-pallete div:nth-child(2){
+    background-color: #3a3d40;
+    color: grey;
+}
+
+.color-pallete div:nth-child(3){
+    background-color: #fbfaef;
+    color: grey;
+}
+
+.color-pallete div:nth-child(4){
+    background-color: #fdecef;
+    color: grey;
+}
+
+.color-pallete div:nth-child(5){
+    background-color: #e8eeea;
+    color: grey;
+}
+
+/* *************************************************** */
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Raleway:ital,wght@0,100;0,400;1,400&display=swap');
+/* 
+font-family: 'Aboreto', cursive;
+font-family: 'Raleway', sans-serif; 
+*/
+
+.font-palette {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.font-palette div {
+    width: 400px;
+    background-color: antiquewhite;
+    padding: 1rem;
+}
